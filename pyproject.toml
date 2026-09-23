@@ -3,7 +3,9 @@ name = "ee950-data-analytics"
 version = "0.1.0"
 description = "EE950 — Data Analytics & Data Structures"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "pytest>=9.1.1",
+]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
